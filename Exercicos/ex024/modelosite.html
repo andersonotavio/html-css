@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groupings tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: silver;
+            margin: 0px;
+        }
+        header{
+            background-color:white ;
+            padding: 10px;
+            margin: 10px;
+        }
+        
+        nav{
+            background-color: silver;
+            padding: 3px;
+            box-shadow: 5px 3px 1px rgba(0, 0, 0, 0.481);
+        }
+        nav > a{
+            color: white;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: rgb(7, 7, 7);
+            color: tomato;
+
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        article{
+            background-color: silver;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(151, 145, 145);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+    </style>
+</head>
+<body>
+   <header>
+       <h1>Meu site</h1>
+       <nav><a href="#">link1</a>
+            <a href="#">link2</a>
+            <a href="#">link3</a>
+            <a href="#">link4</a>
+        </nav>
+   </header> 
+   <main>
+       <section id="assuntos">
+           <p>Esporte Politica Tecnologia</p>
+           <section id="noticias">
+               <article>
+                   <h2>Noticias do Brasil</h2>
+                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque unde odio cumque, accusamus nulla, ex quam voluptates suscipit, impedit ducimus delectus illo amet. Eaque dolore repellendus ipsum sequi, ullam ducimus!</p>
+                   <aside>
+                    <p>
+                        Artigo escrito por Carlos Alberto
+                    </p>
+                    </aside>
+               </article>    
+           </section>
+       </section>
+       <aside>
+           
+       </aside>
+   </main>
+   <footer>
+    Desenvolvido pelo Developer Otavio
+   </footer>
+</body>
+</html>

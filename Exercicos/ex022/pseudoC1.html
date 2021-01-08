@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Classes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div > p{
+            display:none
+        }
+        div:hover > p{
+            display:block;
+            color: aqua;
+
+            
+        }
+        div:hover{
+            color: red;
+
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>Exemplo de houver</h1>
+    <p>Passe o mouse em cima</p>
+    <div>
+        passe o mouse aqui
+        <p>Clik in text</p>
+    </div>
+    
+</body>
+</html>
